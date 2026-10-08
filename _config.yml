@@ -1,13 +1,15 @@
 theme: minima
 
-title: AchyuthaAshish's Personal Blog
-tagline: Thoughts, projects, and insights on tech & life
+title: Achyutha Ashish
+tagline: Engineering, Embedded Systems & Software and insights on tech & life
 description: "Welcome to my personal site where I share projects, deep dives into tech, and stories from my journey."
 url: "https://AchyuthaAshish.github.io" # Replace with your custom domain if you have one
 baseurl: "/skills-github-pages" # Repository name
 
+header_pages:
+  - about.md
 # Author Details
-author:
-  name: AchyuthaAshish
-  email: your-email@example.com # Optional
-  github: AchyuthaAshish
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
